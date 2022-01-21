@@ -2,10 +2,12 @@ import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Link from "next/link";
+import { SearchBox } from "../components/Search";
 
 export default function Home({ pokemon }) { 
   return (
     <Layout title="Pokedex">
+      <SearchBox />
       <h1 className="text-4xl mb-8 text-center">POKEDEX</h1>
       <ul>{pokemon.map(( pokeman, index) => (
         <li key={index}>
