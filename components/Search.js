@@ -6,7 +6,7 @@ export const SearchBox = () => {
         <form onSubmit={(e) => {
             e.preventDefault();
         }}>
-            <div>
+            <div className="flex">
                 <input type="text"
                        placeholder="Search pokemon"
                        value={value}
