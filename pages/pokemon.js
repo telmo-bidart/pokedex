@@ -15,7 +15,7 @@ export default function pokemon({pokeman}) {
                 {type.type.name}
             </p>
         ))}
-        <p className='mt-10 text-center'>
+        <p className='mt-11 text-center'>
             <Link href="/">
                 <a className='text=2xl underline'>Home</a>
             </Link>
